@@ -11,6 +11,7 @@ Features:
 - Browserify
 - LESS
 - Skeleton CSS
+- JWT (JSON Web Tokens)
 
 ## How to install?
 
@@ -35,6 +36,8 @@ or, to trigger the browserify + watchify without running the tests:
 ```
 $ gulp build.dev
 ```
+
+The authentication token max age is currently 30 seconds (for demonstration purposes; that can be changed in server.js).
 
 ## Credits
 Written in Visual Studio Code, which I highly recommend ;-)
